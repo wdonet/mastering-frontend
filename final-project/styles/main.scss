@@ -1,13 +1,9 @@
-// This should be imported by the main.js file
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+$quicksand: 'Quicksand', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$sans: 'Open Sans', sans-serif;
+$white: #fff;
 
-// test for scss variables
-$primary-color: #2a3fbb;
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-h1 {
-  color: $primary-color;
-}
+@import './header.scss';
